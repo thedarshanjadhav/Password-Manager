@@ -15,7 +15,12 @@ const Navbar = () => {
             src="/icons/github.svg"
             alt="github logo"
           />
-          <span className="font-bold px-2">GitHub</span>
+          <a
+            href="https://github.com/thedarshanjadhav/Password-Manager"
+            target="_blank"
+          >
+            <span className="font-bold px-2">GitHub</span>
+          </a>
         </button>
       </div>
     </nav>
